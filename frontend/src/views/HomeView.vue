@@ -6,12 +6,12 @@
     </h1>
     
     <div class="button-grid">
-    <button class="start-button">在庫計画</button>
-    <button class="start-button">入出庫管理</button>
-    <button class="start-button">需要予測</button>
-    <button class="start-button">新商品登録</button>
-    <button class="start-button">マスタ管理</button>
-    <button class="start-button">設定</button>
+      <router-link to="/zaiko" class="start-button">在庫計画</router-link>
+      <router-link to="/inout" class="start-button">入出庫管理</router-link>
+      <router-link to="/forecast" class="start-button">需要予測</router-link>
+      <router-link to="/newitem" class="start-button">新商品登録</router-link>
+      <router-link to="/master" class="start-button">マスタ管理</router-link>
+      <router-link to="/setting" class="start-button">設定</router-link>
     </div>
   </div>
 
